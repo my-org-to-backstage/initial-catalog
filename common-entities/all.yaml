@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: common-entities
+  description: A collection of all common entities
+spec:
+  targets:
+    - ./users.yaml
+    - ./groups.yaml

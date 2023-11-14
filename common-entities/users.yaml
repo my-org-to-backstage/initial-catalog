@@ -1,0 +1,22 @@
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ronaldo
+spec:
+  profile:
+    displayName: Ronaldo
+    email: ronaldo@example.com
+  memberOf: [pagamentos]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: marta
+spec:
+  profile:
+    displayName: Marta
+    email: marta@example.com
+  memberOf: [pagamentos]

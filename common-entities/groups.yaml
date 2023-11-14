@@ -1,0 +1,12 @@
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: pagamentos
+  title: Time responsável pela disponibilização de novos meios de pagamento
+spec:
+  type: team
+  profile:
+    displayName: Pagamentos
+    email: pagamentos@example.com
