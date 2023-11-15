@@ -4,6 +4,8 @@ metadata:
   name: entities
   description: A collection of all the catalog entities
 spec:
+  type: other
+  lifecycle: unknown
   owner: viniciusfcf
   targets:
     - ./common-entities/all.yaml
