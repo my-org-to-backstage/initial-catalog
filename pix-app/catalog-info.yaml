@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "pag-pix"
+  name: "pix"
   description: "A cool quarkus app"
   annotations:
     argocd/app-name: pix-dev
