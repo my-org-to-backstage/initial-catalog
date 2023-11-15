@@ -6,7 +6,7 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
 @Path("/pix")
-public class GreetingResource {
+public class PixResource {
 
     @POST
     @Produces(MediaType.APPLICATION_JSON)

@@ -14,7 +14,7 @@
   "paths" : {
     "/pix" : {
       "post" : {
-        "tags" : [ "Greeting Resource" ],
+        "tags" : [ "Pix Resource" ],
         "requestBody" : {
           "content" : {
             "application/json" : {

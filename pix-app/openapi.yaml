@@ -12,7 +12,7 @@ paths:
   /pix:
     post:
       tags:
-      - Greeting Resource
+      - Pix Resource
       requestBody:
         content:
           application/json:
