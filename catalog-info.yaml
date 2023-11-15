@@ -1,9 +1,8 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
-  name: initial-catalog
-  annotations:
-    github.com/project-slug: my-org-to-backstage/initial-catalog
+  name: entities
+  description: A collection of all the catalog entities
 spec:
-  type: other
-  lifecycle: unknown
+  targets:
+    - ./common-entities/all.yaml
