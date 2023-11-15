@@ -10,8 +10,6 @@ metadata:
     janus-idp.io/tekton-enabled : 'true'
     backstage.io/source-location: url:https://github.com/my-org-to-backstage/initial-catalog/blob/main/pix-app
     backstage.io/techdocs-ref: url:https://github.com/my-org-to-backstage/initial-catalog/blob/main/pix-app
-    gitlab.com/project-slug: development/pix
-    quay.io/repository-slug: "/pix"
   tags:
     - java
     - quarkus
