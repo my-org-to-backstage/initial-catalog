@@ -40,3 +40,17 @@ spec:
     email: user1@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
   memberOf: []
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: pagamentos
+  description: Time responsável pela disponibilização dos meios de pagamento
+  title: Pagamentos
+spec:
+  type: team
+  profile:
+    displayName: Pagamentos
+    email: pagamentos@example.com
+  children: []
