@@ -20,3 +20,14 @@ spec:
     displayName: Marta
     email: marta@example.com
   memberOf: [pagamentos]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: viniciusfcf
+spec:
+  profile:
+    displayName: Vinicius Ferraz
+    email: viniciusferraz@example.com
+  memberOf: []
