@@ -1,6 +1,6 @@
 schemaVersion: 2.2.0
 metadata:
-  generateName: pix-app
+  generateName: pix
 components:
   - name: development-tooling
     container:
