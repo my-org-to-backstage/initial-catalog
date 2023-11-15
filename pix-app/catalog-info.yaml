@@ -27,12 +27,12 @@ spec:
   lifecycle: production
   owner: group:pagamentos
   providesApis:
-    - "pix"
+    - "pixapi"
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: "pix"
+  name: "pixapi"
   description: "A cool quarkus app"
 spec:
   type: openapi
