@@ -9,7 +9,6 @@ spec:
     displayName: Ronaldo
     email: ronaldo@example.com
   memberOf: [pagamentos]
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -20,7 +19,6 @@ spec:
     displayName: Marta
     email: marta@example.com
   memberOf: [pagamentos]
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
