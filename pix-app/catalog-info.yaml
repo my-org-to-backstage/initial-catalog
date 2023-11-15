@@ -8,18 +8,18 @@ metadata:
     backstage.io/kubernetes-id: pix
     backstage.io/kubernetes-namespace: pix-dev
     janus-idp.io/tekton-enabled : 'true'
-    backstage.io/source-location: url:https://gitlab-gitlab.apps.cluster-2wtdg.sandbox648.opentlc.com/development/pix
-    backstage.io/techdocs-ref: url:https://gitlab-gitlab.apps.cluster-2wtdg.sandbox648.opentlc.com/development/pix
+    backstage.io/source-location: url:https://github.com/my-org-to-backstage/initial-catalog/blob/main/pix-app
+    backstage.io/techdocs-ref: url:https://github.com/my-org-to-backstage/initial-catalog/blob/main/pix-app
     gitlab.com/project-slug: development/pix
     quay.io/repository-slug: "/pix"
   tags:
     - java
     - quarkus
   links:
-    - url: https://devspaces.apps.cluster-2wtdg.sandbox648.opentlc.com/#https://gitlab-gitlab.apps.cluster-2wtdg.sandbox648.opentlc.com/development/pix
+    - url: https://devspaces.apps.cluster-2wtdg.sandbox648.opentlc.com/#https://github.com/my-org-to-backstage/initial-catalog/blob/main/pix-app
       title: OpenShift Dev Spaces (VS Code)
       icon: web
-    - url: https://devspaces.apps.cluster-2wtdg.sandbox648.opentlc.com/#https://gitlab-gitlab.apps.cluster-2wtdg.sandbox648.opentlc.com/development/pix?che-editor=che-incubator/che-idea/latest
+    - url: https://devspaces.apps.cluster-2wtdg.sandbox648.opentlc.com/#https://github.com/my-org-to-backstage/initial-catalog/blob/main/pix-app?che-editor=che-incubator/che-idea/latest
       title: OpenShift Dev Spaces (JetBrains IntelliJ)
       icon: web
 spec:
