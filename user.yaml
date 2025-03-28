@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: vini
+spec:
+  profile:
+    displayName: Vini
+    email: vinicius.ferraz@gmail.com
+  memberOf: []
